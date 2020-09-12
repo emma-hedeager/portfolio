@@ -5,14 +5,14 @@
  Author:       Emma Hedeager
  Author URI:   http://hedeagerdesign.dk
  Template:     astra
- Version:      1.0.6
+ Version:      1.0.8
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
 
-/* Navigation bar */ 
+/* Ændringer til navigationsbar og drop-down */ 
 .main-header-bar-wrap {
     position: fixed;
     width: 100%;
@@ -20,6 +20,24 @@
     background-color: #AD9F88;
 }
 
+/* Farve på fonten i navigationsbaren */
+.main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
+    color: #F9F2E5;
+}
+
+/* dropdown i navigationsbaren */
+.ast-desktop .main-header-menu.submenu-with-border .sub-menu {
+    border-top-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    background-color: #AD9F88;
+}
+
+
+/* Ændringer til enkelt underoverskrift - h3 */
 h3.elementor-heading-title.elementor-size-default {
     color:#AD9F88;
 }
+
