@@ -40,6 +40,11 @@
     background-color: #AD9F88;
 }
 
+/* styling af navigationsbar på mobil device */
+.ast-container {
+    background-color: #ad9f88 !important;
+}
+
 
 /* Ændringer til enkelt underoverskrift - h3 */
 h3.elementor-heading-title.elementor-size-default {
